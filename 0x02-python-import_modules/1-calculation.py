@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
-    from calcualtor_1 import *
+    from calcualtor_1 import add, sub, mul, div
     a = 10
     b = 5
 
