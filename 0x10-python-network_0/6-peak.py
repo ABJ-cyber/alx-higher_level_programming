@@ -1,7 +1,8 @@
 #!/usr/bin/python3
-
+"""finds peak in a list"""
 
 def find_peak(list_of_integers):
+    "finds and returns peak"
     arr = list_of_integers
     n = len(list_of_integers)
     start = 0
@@ -13,4 +14,6 @@ def find_peak(list_of_integers):
         else:
             start = mid + 1
 
-    return start
+    if start >= n:
+        return None
+    return arr[start]
