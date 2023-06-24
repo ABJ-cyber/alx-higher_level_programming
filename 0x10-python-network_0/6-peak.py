@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """finds peak in a list"""
 
+
 def find_peak(list_of_integers):
     "finds and returns peak"
     arr = list_of_integers
