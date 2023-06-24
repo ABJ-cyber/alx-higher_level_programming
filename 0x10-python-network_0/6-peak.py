@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 
-def findPeak(arr):
+def find_peak(arr):
     n = len(arr)
     start = 0
     end = n - 1
